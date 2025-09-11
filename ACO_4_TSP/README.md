@@ -40,3 +40,32 @@ loop.
 - **drawBestTour.m** – overlays the current best tour.  
 - **drawPheromone.m** – visualizes pheromone intensity on edges.
 
+
+## Interactive Demo
+
+The project is not just a static implementation of Ant Colony 
+Optimization (ACO) for the Traveling Salesman Problem (TSP) — it also 
+demonstrates **how ACO adapts to changes in the environment**.
+
+The workflow is:
+
+1. **Run ACO on the original graph**  
+   The algorithm constructs tours, updates pheromone trails, and converges 
+toward a good solution.
+
+2. **Delete an edge interactively**  
+   After the first run, you can click on the plotted graph to select an 
+edge to remove. That edge is set to `∞` in the distance matrix (making it 
+unusable).
+
+3. **Run ACO again with the updated graph**  
+   The algorithm reuses the pheromone trails from the first phase and 
+quickly adapts to the new topology, demonstrating resilience to dynamic 
+changes.
+
+Visual outputs:
+- Graph of the TSP instance (with optional deleted edges highlighted)
+- Current best tour (the "queen")
+- Pheromone intensity heatmap across edges
+- Convergence of best solution across iterations
+
