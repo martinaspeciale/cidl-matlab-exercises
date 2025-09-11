@@ -35,3 +35,8 @@ rules.
 - **main.m** – entry-point script: parameters, graph setup, calls ACO 
 loop.
 
+### 5. Visualization
+- **drawGraph.m** – plots the graph structure.  
+- **drawBestTour.m** – overlays the current best tour.  
+- **drawPheromone.m** – visualizes pheromone intensity on edges.
+
