@@ -24,3 +24,9 @@ edges.
 - **closeEdge.m** – finds which edge is closest to a click point (for 
 deletion).
 
+### 3. Colony & evaluation
+- **createColony.m** – builds tours for all ants using probabilistic 
+rules.  
+- **fitnessFunction.m** – evaluates tour length (TSP cost).  
+- **updatePheromone.m** – pheromone update by evaporation and deposit.
+
