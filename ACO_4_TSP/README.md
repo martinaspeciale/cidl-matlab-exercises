@@ -17,3 +17,10 @@ colony → algorithm loop → visualization:
 - **midpoint.m** – computes midpoints of graph edges.  
 - **average.m** – utility for mean values (used by midpoint).
 
+### 2. Graph construction
+- **createGraph.m** – builds the grid instance with nodes and weighted 
+edges.  
+- **addEdge.m** – inserts an undirected weighted edge.  
+- **closeEdge.m** – finds which edge is closest to a click point (for 
+deletion).
+
