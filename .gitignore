@@ -1,0 +1,12 @@
+# macOS system files
+.DS_Store
+
+# MATLAB backup/autosave files
+*.asv
+*.m~
+*.mex*
+
+# Logs and temporary files
+*.log
+*.tmp
+
