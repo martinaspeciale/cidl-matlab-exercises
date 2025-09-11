@@ -30,3 +30,8 @@ rules.
 - **fitnessFunction.m** – evaluates tour length (TSP cost).  
 - **updatePheromone.m** – pheromone update by evaporation and deposit.
 
+### 4. Main algorithm
+- **ACO_loop.m** – core ACO iteration loop (construct, evaluate, update).  
+- **main.m** – entry-point script: parameters, graph setup, calls ACO 
+loop.
+
