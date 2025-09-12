@@ -1,4 +1,4 @@
-# Week 09 — Evolutionary Optimization (1D)
+# Evolutionary Optimization (1D)
 
 This folder contains MATLAB scripts for **evolutionary and heuristic 
 optimization** on a 1-dimensional benchmark function with multiple minima.
@@ -56,4 +56,18 @@ the next generation.
 if fitter.
 - **Simulated Annealing:** explores search space by sometimes accepting 
 worse solutions, with probability decreasing over time.
+
+----
+
+## Study notes
+
+- **logical2real**: why add half a bin → centers decoded values in their 
+intervals.  
+- **binarytournement**: hardcoded 10 is a limitation.  
+- **GA vs ES**: GA uses crossover + population; ES uses mutation only with 
+single parent/offspring.  
+- **SBX parameter η**: controls spread of offspring (small η = 
+exploratory, large η = exploitative).  
+- **SA acceptance**: simplified in code; canonical form would use 
+`exp(-(ΔE)/T)`.  
 
